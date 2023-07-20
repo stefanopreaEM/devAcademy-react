@@ -1,0 +1,15 @@
+
+
+.AlbumLink {
+  color: white;
+  height: 5rem;
+  width: 20rem;
+  background-color: brown;
+}
+
+.AlbumItemWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 100%;
+}

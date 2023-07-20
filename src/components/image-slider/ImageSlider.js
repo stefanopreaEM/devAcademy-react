@@ -44,8 +44,6 @@ function ImageSlider({
     slider.current.prev();
   };
 
-  console.log(photos);
-
   // useLayoutEffect(() => { // -> a layer arround useEffect that executes before every paint, commonly used with UI updates
   //   slider.current.destroy();
 

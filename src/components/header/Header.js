@@ -16,6 +16,10 @@ const headerItems = [
     id: 'i3',
     content: <Link to={'/description'}>Description</Link>
   },
+  {
+    id: 'i4',
+    content: <Link to={'/album'}>Album</Link>
+  }
 ];
 
 function Header (props) {

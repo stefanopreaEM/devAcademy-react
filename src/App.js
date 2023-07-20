@@ -28,9 +28,10 @@ function App() {
   const { pathname } = useLocation();
 
   return (
-    <div className="App">
+    <main className="App">
       <div className="Container">
-        {pathname !== '/user' && <Header title="React App" />}
+        {/* {pathname !== '/user' && <Header title="React App" />} */}
+        <Header title="React DevAcademy"/>
         <AppRouter />
         {/* {hasCountBox && <CountBox showAnotherMessage={showAnotherMessage} onCountChange={handleDeleteParentMessage}/>}
         <button className='Button' onClick={
@@ -79,7 +80,7 @@ function App() {
             })} */}
         {/* </ul> */}
       </div>
-    </div>
+    </main>
   );
 }
 
