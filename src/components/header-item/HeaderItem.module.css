@@ -1,0 +1,15 @@
+
+
+.headerItem {
+  height: 20px;
+  width: 20%;
+  background-color: transparent;
+  color: white;
+  list-style: none;
+}
+
+
+.headerItemText {
+  font-size: 18px;
+  color: white;
+}

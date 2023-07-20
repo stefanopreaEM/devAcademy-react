@@ -1,0 +1,15 @@
+
+.CountBoxWrapper {
+  background-color: blueviolet;
+  color: white;
+}
+
+.CountBox {
+  background-color: brown;
+  font-size: 2rem;
+  color: white;
+}
+
+.Message {
+  font-size: 2rem;
+}
